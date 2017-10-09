@@ -7,10 +7,10 @@
   	
   	function show()
   	{
-  		$testModel = new M('test');
+  		$testModel = M('test');
   		$date = $testModel->get();
 
-  		$testView = new C('test');
+  		$testView = V('test');
   		$testView->display($date);
   	}
   }
